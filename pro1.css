@@ -1,0 +1,77 @@
+/********** Common CSS Starts **********/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    font-family Roboto,
+    sans-serif,
+    arial;
+    font-size: 14px;
+    color: #242424;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.main-section {
+    width: 100%;
+    float: left;
+    padding: 50px 0px 40px 0px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #ff5722;
+    margin-bottom: 25px;
+    color: #ff5722;
+}
+
+/********** Common CSS Ends **********/
+/********** Logo CSS Starts **********/
+.logo {
+    width: 80%;
+    height: 150px;
+}
+
+/********** Logo CSS Ends **********/
+/********** Main Menu CSS Starts **********/
+nav {
+    width: 100%;
+    float: left;
+    background: #ff5722;
+    padding: 15px 0px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ffc3c3;
+    padding: 2px 20px;
+}
+
+/********** Main Menu CSS Ends **********/
+/********** Slider CSS Starts **********/
+.slider img {
+    width: 100%;
+}
+
+/********** Slider CSS Ends **********/
+/********** News, Event, Notice Board CSS Starts **********/
+.event {
+    width: 31%;
+    margin-right: 1%;
+    float: left;
+}
+
+.event div {
+    padding: 10px;
+    background-color: #747b8a;
+}
+
